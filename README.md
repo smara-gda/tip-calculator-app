@@ -60,6 +60,6 @@ WIP
 
 ## Author
 
-- Website - [Smaragda](https://github.com/smara-gda)
+- GitHub - [Smaragda](https://github.com/smara-gda)
 - Frontend Mentor -
   [@smara-gda](https://www.frontendmentor.io/profile/smara-gda) )

@@ -1,0 +1,245 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+:root {
+  --veryDarkCyan: hsl(183, 100%, 15%);
+  --darkGrayishCyan: hsl(186, 14%, 43%);
+  --grayishCyan: hsl(184, 14%, 56%);
+  --lightGrayishCyan: hsl(183, 93%, 42%);
+  --veryLightGrayishCyan: hsl(189, 41%, 97%);
+  --white: hsl(0, 0%, 100%);
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  background-color: var(--veryLightGrayishCyan);
+  font-family: 'Space Mono', monospace;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+h1 {
+  word-break: break-all;
+  max-width: 10%;
+  letter-spacing: 0.3em;
+}
+.center-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100vh;
+}
+.splitter-container {
+  display: flex;
+}
+
+.splitter-container {
+  background-color: var(--white);
+  padding: 2em;
+  border-radius: 1em;
+}
+.splitter-left {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.bill {
+  display: flex;
+  flex-direction: column;
+}
+.splitter-left input {
+  margin-top: 0.5em;
+  padding: 0.5em;
+  border: none;
+  background-color: hsl(0deg 0% 94%);
+}
+.tips-container {
+  display: flex;
+  flex-direction: column;
+}
+.totals-container-right {
+  padding: 2em;
+  border-radius: 1em;
+  background-color: var(--veryDarkCyan);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.tip-btns {
+  width: 100%;
+}
+.tips-btn {
+  color: var(--white);
+  background-color: var(--veryDarkCyan);
+  width: 25%;
+  padding: 0.2em 0 0.2em 0;
+  border-radius: 0.2em;
+  margin: 0.2em 0 0.2em 0;
+}
+.tip-btns input {
+  width: 20%;
+  padding: 0.2em;
+  border-radius: 0.2em;
+}
+
+.reset-calculation {
+  background-color: var(--lightGrayishCyan);
+  width: 95%;
+  align-self: center;
+  padding: 0.6em;
+  border-radius: 0.5em;
+}
+
+.tip-amnt {
+  color: var(--lightGrayishCyan);
+  font-size: 2em;
+}
+
+.flex-tips {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex-tips p {
+  color: var(--white);
+  width: 42%;
+}
+.flex-tips p span {
+  font-size: 0.6em;
+}
+.bill,
+.tips-container,
+.tip-btns,
+.people {
+  padding: 0.5em 0 0.5em 0;
+}
+.people {
+  width: 92%;
+}
+.people input {
+  width: 100%;
+  /* margin-right: 1em; */
+}

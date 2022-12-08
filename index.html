@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Tip calculator app</title>
+  </head>
+  <body>
+    <main>
+      <section class="center-section">
+        <h1>SPLITTER</h1>
+        <div class="splitter-container">
+          <div class="splitter-left">
+            <div class="bill">
+              <label for="amount">Bill</label>
+              <input type="number" name="amount" id="amount" />
+            </div>
+            <div class="tips-container">
+              <h4>Select Tip %</h4>
+              <div class="tip-btns">
+                <button class="tips-btn">5%</button>
+                <button class="tips-btn">15%</button>
+                <button class="tips-btn">10%</button>
+                <button class="tips-btn">25%</button>
+                <button class="tips-btn">50%</button>
+                <input
+                  type="number"
+                  name="custom"
+                  id="custom"
+                  placeholder="Custom"
+                />
+              </div>
+            </div>
+            <div class="people">
+              <label for="people">Number of People</label>
+              <input type="number" name="people" id="people" />
+            </div>
+          </div>
+
+          <div class="totals-container-right">
+            <div class="tip-pp flex-tips">
+              <p>
+                Tip Amount
+                <span>/ person</span>
+              </p>
+              <div class="tip-amnt">$4</div>
+            </div>
+            <div class="tip-total flex-tips">
+              <p>
+                Total
+                <span>/ person</span>
+              </p>
+              <div class="tip-amnt">$ 23</div>
+            </div>
+            <button class="reset-calculation">RESET</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

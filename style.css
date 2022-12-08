@@ -139,8 +139,8 @@ table {
 }
 h1 {
   word-break: break-all;
-  max-width: 10%;
-  letter-spacing: 0.3em;
+  max-width: 7%;
+  letter-spacing: 0.6em;
 }
 .center-section {
   display: flex;

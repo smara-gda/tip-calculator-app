@@ -62,4 +62,4 @@ WIP
 
 - GitHub - [Smaragda](https://github.com/smara-gda)
 - Frontend Mentor -
-  [@smara-gda](https://www.frontendmentor.io/profile/smara-gda) )
+  [@smara-gda](https://www.frontendmentor.io/profile/smara-gda)

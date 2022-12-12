@@ -28,7 +28,7 @@
           <div class="splitter-left">
             <div class="bill">
               <label for="amount">Bill</label>
-              <input type="number" name="amount" id="amount" />
+              <input type="number" name="amount" id="amount" min="1" />
             </div>
             <div class="tips-container">
               <h4>Select Tip %</h4>
@@ -44,13 +44,14 @@
                   name="custom"
                   id="custom"
                   placeholder="Custom"
+                  min="1"
                 />
               </div>
             </div>
             <div class="people">
               <label for="people"
                 >Number of People
-                <input type="number" name="people" id="people" />
+                <input type="number" name="people" id="people" min="1" />
               </label>
             </div>
           </div>
